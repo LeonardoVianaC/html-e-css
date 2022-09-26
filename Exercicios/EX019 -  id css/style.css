@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*  - id é utilizado # ( Só um elemento por HTML)
+    - class é utilizado . ( Pode varios elementos por HTML)
+*/
+
+body{
+    text-align: justify;
+    text-indent: 30px;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+.principal{
+    color: black;
+}
+
+.now{
+    color: blueviolet;
+}
+.now1{
+    color: brown;
+}
+h2{
+    text-align: center;
+    color: rgb(6, 98, 235);
+}

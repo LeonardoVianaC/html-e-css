@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupinf Tags</title>
+    <style>
+        body{
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+           
+        }
+
+        header{
+            background-color: rgba(221, 240, 112, 0.548);
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        header > h1{
+            background-color: aquamarine;
+            margin: 7px;
+            padding: 10px;
+            
+        }
+        nav{
+            background-color: gray;
+            margin: 7px;
+            text-align: center;
+            padding: 10px;
+        }
+        nav> a.b{
+            display: none;
+       }
+       
+        nav > a {
+            background-color: bisque;
+            text-decoration: none;
+            color: blue;
+            margin: 40px;
+            padding: 10px;
+        }
+        nav > a.a:hover{
+            
+            text-decoration: underline;
+            color: black;
+        }
+        a.a:hover > a.b{
+            color: rgb(102, 204, 116);
+        }
+        section#noticias{
+            background-color: rgba(221, 240, 112, 0.548);
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        article > h2{
+            background-color: aquamarine;
+            margin: 7px;
+            padding: 10px;
+
+        }
+        article > p{
+            text-align: justify;
+        }
+        footer{
+            margin: 2px;
+            background-color: gray;
+            text-align: center;
+            color: darkorange;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#" class="a">Link</a>
+                <a href="@" class="b">Link 2</a>
+
+            <a href="#"class="1">Link</a>
+                <a href="@" class="b">Link 2</a>
+
+            <a href="#"class="1">Link</a> 
+                <a href="@" class="b">Link 2</a> 
+
+            <a href="#"class="1">Link</a>
+                <a href="@" class="b">Link 2</a>
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias cobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aliquam magnam, consectetur commodi perspiciatis, ex nulla quae nobis culpa illo voluptatum pariatur iste, laborum voluptatem reiciendis ratione! Consequuntur, ut deleniti?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus enim temporibus at amet accusamus. Enim atque expedita tempora placeat, assumenda corrupti soluta repudiandae libero dignissimos consequatur ea, odit quo?</p>
+                <aside>
+                    <p>Artigo escrito por Leonardo Viana</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Leonardo Viana</p>
+    </footer>
+
+</body>
+</html>

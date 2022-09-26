@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <H1>Imagem dinâmica</H1>
+    <p>Tente abrir esse site me vários dispositivos diferentes ou expandir e diminuri o tamanho da janela do seu navegador para a verificação da imagem dinamica, verifique se ficará no tamanho ideal.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Pequena.png" sizes="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/Médio.png" sizes="image/png">
+        <img src="Imagens/Grande.png" alt="imagem flexível">
+    </picture>
+    
+    <h1>Reproduzindo audios no HTML</h1>
+    <p>Vamos reproduzir o audio</p>
+    <audio src="midia/05 - Amor da minha vida.mp3" controls autoplay></audio>
+
+    <p> temos outra forma de por audio no site</p>
+
+    <audio"></audio>
+</body>
+</html>
